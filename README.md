@@ -48,9 +48,10 @@ lang_2 = ["तुम क्या कर रहे हो", "तुम्हा�
 
 model = TQE('LaBSE')
 cos_sim_values = model.fit(lang_1, lang_2)
+print(cos_sim_values)
 ```
 
-**NOTE**: For a full overview of all possible transformer models see [sentence-transformer](https://www.sbert.net/docs/pretrained_models.html).
+**NOTE**: For a full overview of all possible multi-lingual transformer models see [sentence-transformer](https://www.sbert.net/docs/pretrained_models.html).
 I would advise using `'LaBSE'` but you can also test out any `'XLM-R'` or `'Multilingual-BERT'` based models.
 
 ## License
