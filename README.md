@@ -1,5 +1,5 @@
-[![PyPI - Python](https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8-blue.svg)]
-[![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)]
+![PyPI - Python](https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8-blue.svg)
+![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)
 
 
 # Translation-Quality-Estimator
