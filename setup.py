@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf8", errors="ignore") as f:
 
 setup(
     name="translation-quality-estimator",
-    version="0.0.5",
+    version="0.0.6",
     description="To estimate the quality of translation",
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -2,9 +2,9 @@
 ![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)
 
 
-# Translation-Quality-Estimator
+# Translation Quality Estimator
 
-Trnaslation Quality Estimator is a simple but powerful way of estimating the quality of translations in over hundred languages. It takes two lists of strings as input and returns the cosine similarity scores between their embeddings.
+Translation Quality Estimator is a simple but powerful way of estimating the quality of translations in over a hundred languages. It takes two lists of strings as input and returns the cosine similarity scores between their embeddings.
 
 <a name="toc"/></a>
 ## Table of Contents  
