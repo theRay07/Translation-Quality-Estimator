@@ -1,6 +1,6 @@
-![PyPI - Python](https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8-blue.svg)
-![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)
-![PyPI - PyPi](https://img.shields.io/pypi/v/translation-quality-estimator)(https://pypi.org/project/translation-quality-estimator/0.1.0/)
+[![PyPI - Python](https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8-blue.svg)](https://pypi.org/project/translation-quality-estimator/)
+[![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)](/LICENSE)
+[![PyPI - PyPi](https://img.shields.io/pypi/v/translation-quality-estimator)](https://pypi.org/project/translation-quality-estimator/)
 
 # Translation Quality Estimator
 
@@ -30,7 +30,7 @@ The aim of this project is to create a quick and easy method for estimating the 
 ###  2.1. Installation
 **[PyTorch 1.2.0](https://pytorch.org/get-started/locally/)** or higher is recommended. If the install below gives an error, please install pytorch first [here](https://pytorch.org/get-started/locally/).
 
-Installation can be done using [pypi](https://pypi.org/project/translation-quality-estimator/0.1.0/)
+Installation can be done using [pypi](https://pypi.org/project/translation-quality-estimator/)
 
 ```
 pip install translation-quality-estimator
