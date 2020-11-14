@@ -1,13 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-with open("README.md", "r") as f:
+with open("README.md", "r", encoding="utf8", errors="ignore") as f:
     long_description = f.read()
-
-base_packages = ["sentence-transformers>=0.3.8"]
 
 setup(
     name="translation-quality-estimator",
-    version="0.1.0",
+    version="0.0.5",
     description="To estimate the quality of translation",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -23,7 +21,9 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=["tqe"],
-    install_requires=base_packages,
+    keywords="nlp bert translation quality estimator",
+    include_package_data=True,
+    packages=find_packages(),
+    install_requires=["sentence-transformers>=0.3.8"],
     python_requires=">=3.6",
 )
